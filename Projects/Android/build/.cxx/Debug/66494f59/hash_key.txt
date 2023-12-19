@@ -1,0 +1,23 @@
+# Values used to calculate the hash in this folder name.
+# Should not depend on the absolute path of the project itself.
+#   - AGP: 7.4.2.
+#   - $NDK is the path to NDK 23.1.7779620.
+#   - $PROJECT is the path to the parent folder of the root Gradle build file.
+#   - $ABI is the ABI to be built with. The specific value doesn't contribute to the value of the hash.
+#   - $HASH is the hash value computed from this text.
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=$PROJECT/XrSamples/XrHelloWorld/Projects/Android/jni/Android.mk
+NDK_APPLICATION_MK=$PROJECT/XrSamples/XrHelloWorld/Projects/Android/jni/Application.mk
+APP_ABI=$ABI
+NDK_ALL_ABIS=$ABI
+NDK_OUT=$PROJECT/XrSamples/XrHelloWorld/Projects/Android/build/intermediates/cxx/Debug/$HASH/obj
+NDK_LIBS_OUT=$PROJECT/XrSamples/XrHelloWorld/Projects/Android/build/intermediates/cxx/Debug/$HASH/lib
+V=0
+-j16
+-C$PROJECT/XrSamples/XrHelloWorld/Projects/Android
+APP_PLATFORM=android-24
+NDK_TOOLCHAIN_VERSION=clang
+APP_STL=c++_static
+NDK_DEBUG=1
+OVR_DEBUG=1
+USE_ASAN=1

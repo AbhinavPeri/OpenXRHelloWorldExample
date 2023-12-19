@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oculus.sdk.xrappbase"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml
+10        android:targetSdkVersion="25" />
+10-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml
+11
+12    <!-- Tell the system this app requires OpenGL ES 3.1. -->
+13    <uses-feature
+13-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:10:2-75
+14        android:glEsVersion="0x00030001"
+14-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:10:16-48
+15        android:required="true" />
+15-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:10:49-72
+16
+17    <!-- Tell the system this app can handle tracked remotes and hands -->
+18    <uses-feature
+18-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:13:2-87
+19        android:name="oculus.software.handtracking"
+19-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:13:16-59
+20        android:required="false" />
+20-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:13:60-84
+21
+22    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+22-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:14:2-72
+22-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:14:19-69
+23
+24    <application
+24-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:16:2-41:16
+25        android:allowBackup="false"
+25-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:17:4-31
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:label="@string/app_name"
+28-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:18:4-36
+29        android:testOnly="true" >
+30
+31        <!-- launchMode is set to singleTask because there should never be multiple copies of the app running -->
+32        <!-- Theme.Black.NoTitleBar.Fullscreen gives solid black instead of a (bad stereoscopic) gradient on app transition -->
+33        <!-- If targeting API level 24+, configChanges should additionally include 'density'. -->
+34        <!-- If targeting API level 24+, android:resizeableActivity="false" should be added. -->
+35        <activity
+35-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:24:3-40:14
+36            android:name="com.oculus.sdk.xrappbase.MainActivity"
+36-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:25:5-57
+37            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|uiMode"
+37-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:30:5-106
+38            android:label="@string/app_name"
+38-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:27:5-37
+39            android:launchMode="singleTask"
+39-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:28:5-36
+40            android:screenOrientation="landscape"
+40-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:29:5-42
+41            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+41-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:26:5-69
+42
+43            <!-- Tell NativeActivity the name of the .so -->
+44            <!-- FIXUP: library name -->
+45            <meta-data
+45-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:33:7-82
+46                android:name="android.app.lib_name"
+46-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:33:18-53
+47                android:value="xrappbase" />
+47-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:33:54-79
+48            <!-- This filter lets the apk show up as a launchable icon -->
+49            <intent-filter>
+49-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:35:4-39:20
+50                <action android:name="android.intent.action.MAIN" />
+50-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:36:5-57
+50-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:36:13-54
+51
+52                <category android:name="com.oculus.intent.category.VR" />
+52-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:37:5-62
+52-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:37:15-59
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:38:5-65
+53-->/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/AndroidManifest.xml:38:15-62
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->[com.android.support:appcompat-v7:26.0.0] /home/abhinav/.gradle/caches/transforms-3/8a489f6659b56d5ad5de8ffc34764bd7/transformed/appcompat-v7-26.0.0/AndroidManifest.xml:26:9-28:38
+58            android:name="android.support.VERSION"
+58-->[com.android.support:appcompat-v7:26.0.0] /home/abhinav/.gradle/caches/transforms-3/8a489f6659b56d5ad5de8ffc34764bd7/transformed/appcompat-v7-26.0.0/AndroidManifest.xml:27:13-51
+59            android:value="26.0.0" />
+59-->[com.android.support:appcompat-v7:26.0.0] /home/abhinav/.gradle/caches/transforms-3/8a489f6659b56d5ad5de8ffc34764bd7/transformed/appcompat-v7-26.0.0/AndroidManifest.xml:28:13-35
+60    </application>
+61
+62</manifest>

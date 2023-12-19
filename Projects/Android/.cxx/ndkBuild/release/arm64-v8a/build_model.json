@@ -1,0 +1,135 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/.cxx/ndkBuild/release/arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/.cxx/ndkBuild/release/arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "V\u003d0",
+      "-j16",
+      "-C/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_TOOLCHAIN_VERSION\u003dclang",
+      "APP_STL\u003dc++_static",
+      "NDK_DEBUG\u003d0",
+      "OVR_DEBUG\u003d0",
+      "USE_ASAN\u003d0"
+    ],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": false,
+    "module": {
+      "buildSystem": "NDK_BUILD",
+      "cmakeToolchainFile": "/home/abhinav/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/.cxx",
+      "gradleModulePathName": ":XrSamples:XrAppBase:Projects:Android",
+      "intermediatesFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/build/intermediates",
+      "makeFile": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/jni/Android.mk",
+      "moduleBuildFile": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/build.gradle",
+      "moduleRootFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/home/abhinav/Android/Sdk/ndk/21.0.6113669",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "21.0.6113669",
+      "project": {
+        "compilerSettingsCacheFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/.cxx",
+        "cxxFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0",
+        "sdkFolder": "/home/abhinav/Android/Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/abhinav/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/abhinav/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/abhinav/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/abhinav/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/build/intermediates/ndkBuild/release/obj/local",
+    "variantName": "release",
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "prefabDirectory": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/.cxx/ndkBuild/release/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrAppBase/Projects/Android/.cxx/ndkBuild/release/prefab/arm64-v8a"
+}

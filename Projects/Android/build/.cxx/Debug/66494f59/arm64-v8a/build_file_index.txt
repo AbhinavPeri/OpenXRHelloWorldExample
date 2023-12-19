@@ -1,0 +1,2 @@
+/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrHelloWorld/Projects/Android/jni/Android.mk
+/home/abhinav/Desktop/OculusStuff/OpenXRMobileSDK/ovr_openxr_mobile_sdk_59.0/XrSamples/XrHelloWorld/Projects/Android/jni/Application.mk
